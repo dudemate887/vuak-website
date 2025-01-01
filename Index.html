@@ -18,9 +18,9 @@
         </div>
 
         <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openTab(event, 'home')">Home</button>
             <button class="tablinks" onclick="openTab(event, 'about')">Apie mus</button>
-            <button class="tablinks" onclick="openTab(event, 'contacts')">Kontaktai</button>
+            <button class="tablinks" onclick="openTab(event, 'contacts')"  id="defaultOpen">Kontaktai</button>
         </div>
         <!-- Tab content -->
         <div id="home" class="tabcontent">
@@ -43,22 +43,38 @@
   
         <div id="contacts" class="tabcontent">
             <p>Čia bus mūsų vardai, pareigos ir kontaktai ir gal mugshots jei jau taip norėsis.</p>
+            <div class="nariai"> 
+            <div class="nariaicards">
+                <img src="mykolas.jpg" style="width:300px; height: auto">
+                <h3>Mykolas Radziukynas<br>
+                <span>Pirmininkas</h3>
+            </div>
+            <div class="nariai">
+                <img src="ignas.jpg" style="width:300px; height: auto">
+                <h3>Ignas Petrauskas<br>
+                <span>Vice-Pirmininkas</h3>
+            </div>
+            <div class="nariai">
+                <img src="laurynas.jpg" style="width:300px; height: auto">
+                <h3>Laurynas Čepauskis<br>
+                <span>HR, Chill Guy</h3>
+            </div>
+            <div class="nariai">
+                <img src="gabrielius.jpg" style="width:300px; height: auto">
+                <h3>Gabrielius Dieninis<br>
+                <span>IT, Raštininkas</h3>
+            </div>
+            <div class="nariai">
+                <img src="augustas.jpg" style="width:300px; height: auto">
+                <h3>Augustas Pupinas<br>
+                <span>Finansai, Logistika</h3>
+            </div>
+            </div>
         </div>
 
         <script>
             // Get the element with id="defaultOpen" and click on it
             document.getElementById("defaultOpen").click();
         </script>
-        <!--
-        <div style="text-align:center">
-            <table class="menu">
-                <tr>
-                    <th id="home">Home</th>
-                    <th id="about">Apie mus</th>
-                    <th id="contacts">Kontaktai</th>
-                </tr>
-            </table>
-        </div>
-    -->
     </body>
 </html>

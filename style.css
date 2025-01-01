@@ -36,6 +36,15 @@ body {
     width:300px;
 }
 
+.nariai {
+    display:block;
+}
+
+.nariaicards > *{
+    float:left;
+    margin-right: 20px;
+}
+
 .logowrap {
     padding: 15px; 
     margin-left: 0px; 
