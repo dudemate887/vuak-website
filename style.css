@@ -36,20 +36,47 @@ body {
     width:300px;
 }
 
-.nariai {
-    display:block;
-}
-
-.nariaicards > *{
-    float:left;
-    margin-right: 20px;
-}
-
 .logowrap {
     padding: 15px; 
     margin-left: 0px; 
     text-align: left;
 }
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cardtext {
+    flex: 1;
+}
+
+.text h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.text p {
+    margin: 5px 0 0;
+}
+
 
  /* Style the tab */
  .tab {
